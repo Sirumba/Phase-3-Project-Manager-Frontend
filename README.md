@@ -27,7 +27,7 @@ To get started with the project, follow these steps:
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/Fleur41/Project-Management-Client.git
+git clone https://github.com/Sirumba/Phase-3-Project-Manager-Frontend.git
 ```
 ### 2. Install dependencies:
 ```bash
@@ -39,7 +39,7 @@ npm install
 npm start
 ```
 ### 4. Running the server.
-The app will be available at [Local host](http://localhost:3000)
+The app will be available at [Local host](http://localhost:9292)
 ## License
 ## Technology used
 
@@ -49,7 +49,7 @@ The app will be available at [Local host](http://localhost:3000)
 
 ## Author
 Project contributed to by:
- [Simon Muriithi](https://github.com/Fleur41/)
+ [Simon Sirumba](https://github.com/Sirumba/)
 
 ## Licence
-For this project's sourcecode is in [Simon Muriithi github  account.](https://github.com/Fleur41/)
+For this project's sourcecode is in [Simon Sirumba github  account.](https://github.com/Sirumba/)
