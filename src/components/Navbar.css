@@ -1,0 +1,44 @@
+.Nav--item{
+    padding-left: 10px;
+    margin-Left:20px ;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+.Nav--item a {
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+ 
+.Nav--item a:hover {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #333;
+}
+.Nav--link{
+    text-decoration: none;
+    color: rgb(233, 216, 134);
+    font-weight: bold;
+    background-color: rgba(118, 105, 36, 0.856);
+    border-radius: 5px;
+    padding: 15px;
+}
+.Nav--link:hover{
+    color: rgb(147, 133, 4);
+    background-color: rgb(97, 24, 180);
+}
+.logout{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(113, 237, 164, 0.856);
+    border-radius: 5px;
+    padding: 15px;
+    justify-items: right;
+    margin-top: 60px;
+
+}
+
+.logout:hover {
+    background-color: #333;
+    color: #f2f2f2;
+}
+
