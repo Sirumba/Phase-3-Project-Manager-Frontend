@@ -25,10 +25,15 @@ This is the client-side of a project management web application. It is built usi
 
 To get started with the project, follow these steps:
 
-### 1. Clone the repository:
+### 1. Clone the Frontend repository:
 ```bash
 git clone https://github.com/Sirumba/Phase-3-Project-Manager-Frontend.git
 ```
+### 2. Clone the Backend repository:
+```bash
+git clone https://github.com/Sirumba/phase-3-project-management-backeend.git
+```
+
 ### 2. Install dependencies:
 ```bash
 cd Project-Management-Client
