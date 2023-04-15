@@ -19,7 +19,7 @@ export default function AddUserForm({
   function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("http://localhost:9292/users", {
+    fetch("https://projectmanager-api-o7c1.onrender.com/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

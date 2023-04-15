@@ -20,14 +20,14 @@ function App() {
 
   //fetch users
   useEffect(() => {
-    fetch("http://localhost:9292/users")
+    fetch("https://projectmanager-api-o7c1.onrender.com/users")
       .then((r) => r.json())
       .then((d) => setUserList(d));
   }, []);
 
   // fetch projects
   useEffect(() => {
-    fetch("http://localhost:9292/projects")
+    fetch("https://projectmanager-api-o7c1.onrender.com/projects")
       .then((r) => r.json())
       .then((d) => setProjects(d));
   }, []);

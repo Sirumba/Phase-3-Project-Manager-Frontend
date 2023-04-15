@@ -14,7 +14,7 @@ function UserCard({user, handleDeleteUser, projects, currentUser}) {
 
 function onDelete(event){
   
-  fetch(`http://localhost:9292/users/${user.id}`, {method: "DELETE"});
+  fetch(`https://projectmanager-api-o7c1.onrender.com/users/${user.id}`, {method: "DELETE"});
   
   handleDeleteUser(user.id)
 
@@ -23,7 +23,7 @@ function onDelete(event){
 const [userList, setUserList] = useState([]);
 //fetch users
 useEffect(() => {
-  fetch("http://localhost:9292/users")
+  fetch("https://projectmanager-api-o7c1.onrender.com/users")
     .then((r) => r.json())
     .then((d) => setUserList(d));
 }, []);
@@ -36,7 +36,7 @@ userId = userList.map((e) => (console.log(e.id)))
 const [memberList, setMemberList] = useState([])
 function handleView(e){
   e.preventDefault()
-  fetch(`http://localhost:9292/members`)
+  fetch(`https://projectmanager-api-o7c1.onrender.com/members`)
   .then(res => res.json())
   .then(d => setMemberList(d))
 }

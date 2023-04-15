@@ -40,7 +40,7 @@ export default function AddProjectForm({
   function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("http://localhost:9292/projects", {
+    fetch("https://projectmanager-api-o7c1.onrender.com/projects", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

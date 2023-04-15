@@ -13,7 +13,7 @@ export default function ProjectCard({
   const [edit, setEdit] = useState(false);
 
   function handleDelete(id) {
-    fetch(`http://localhost:9292/projects/${id}`, { method: "DELETE" });
+    fetch(`https://projectmanager-api-o7c1.onrender.com/projects/${id}`, { method: "DELETE" });
     onClickDeleteButton(id);
   }
   
